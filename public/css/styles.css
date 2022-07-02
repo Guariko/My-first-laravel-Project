@@ -1,0 +1,174 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                Roboto, Oxygen, Ubuntu, Cantarell, 
+                'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border-radius: 0;  
+    text-indent: 0;          
+}
+
+.main {
+    margin-top: 4rem;
+}
+
+/* FIXME: Setting up the project ends */
+
+/* TODO: Create term starts */
+
+.create__term__section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input {
+    background: #fff;
+    border-radius: 1.4rem;
+    border: 0.2rem solid rgba(0,0,0,0.2);
+    font-size: 3rem;
+    color: black;
+    width: 40rem;
+    padding: 1rem;
+}
+
+.large__input {
+    resize: none;
+    font-size: 2rem;
+    height: 10rem;
+}
+
+.label {
+    font-size: 5rem;
+    color: black;
+    text-transform: capitalize;
+}
+
+.regular__form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.buttons__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 9rem;
+}
+
+.button__container {
+    height: 9rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__container__large {
+    width: 26rem;
+}
+
+.button {
+    font-size: 3rem;
+    color: black;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    border: .2rem solid rgb(144,244,255);
+    transition: all .2s linear;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.button:hover {
+    font-size: 3.1rem;
+    letter-spacing: .1rem;
+}
+
+.error {
+    font-size: 2rem;
+    color: red;
+}
+
+.table__data a {
+    color: green;
+    text-transform: capitalize;
+}
+
+.table__data .see {
+    color: black;
+    transition: all .2s linear;
+}
+
+.see:hover {
+    color: dodgerblue;
+}
+
+
+
+/* FIXME: Create term ends */
+
+/* TODO: Table starts */
+
+.table {
+    border-collapse: collapse;
+
+}
+
+.table__data,
+.table__head,
+.table {
+    border: 0.2rem solid rgb(144,244,255);
+}
+
+.delete,
+.table__data {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.table__head {
+    font-size: 4.5rem;
+    padding: 1rem;
+    text-transform: capitalize;
+    color: red;
+    width: fit-content;
+}
+
+.table__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.delete {
+    background: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.delete:hover {
+    color: red;
+}
